@@ -1,0 +1,45 @@
+h1 {
+    color:  #28E06C;
+}
+
+#picture1 {
+    float: right;
+}
+
+hr {
+    border-color: #049439;
+    border-width: 1px;
+    margin-right: 50%;
+}
+
+h1 + .header1 {
+    font-weight: bold;
+}
+
+.header1 {
+    text-decoration: underline;
+}
+
+p {
+   width: 45%; 
+}
+
+em {
+    color: #28E06C;
+}
+
+table, tr, td {
+    border-color: #049439;
+    border-width: 2px;
+    border-style: solid;
+}
+
+form input {
+    border-color: #28E06C;
+    background-color: #049439;
+}
+
+body {
+    background: #6C4191;
+    font-family: 'Special Elite', cursive;
+}
