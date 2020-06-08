@@ -1,45 +1,64 @@
 h1 {
-    color:  #28E06C;
+  color: #28e06c;
 }
 
 #picture1 {
-    float: right;
+  float: right;
+  margin-left: 8px;
 }
 
 hr {
-    border-color: #049439;
-    border-width: 1px;
-    margin-right: 50%;
+  border-color: #049439;
+  border-width: 1px;
+  margin-right: 50%;
 }
 
-h1 + .header1 {
-    font-weight: bold;
-}
-
-.header1 {
-    text-decoration: underline;
+.section-header {
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 p {
-   width: 45%; 
+  width: 45%;
 }
 
 em {
-    color: #28E06C;
+  color: #28e06c;
 }
 
-table, tr, td {
-    border-color: #049439;
-    border-width: 2px;
-    border-style: solid;
+h3 + table, tr, td {
+  border-color: #049439;
+  border-width: 2px;
+  border-style: solid;
+}
+
+td {
+  padding: 6px;
+}
+
+form label {
+  width: 100px;
+  display: inline-block;
+}
+
+label select {
+  margin-top: 6px;
+}
+
+form label.label-expand {
+  width: 350px;
 }
 
 form input {
-    border-color: #28E06C;
-    background-color: #049439;
+  border-color: #28e06c;
+  background-color: #049439;
+}
+
+form div {
+  margin-bottom: 10px;
 }
 
 body {
-    background: #6C4191;
-    font-family: 'Special Elite', cursive;
+  background: #6c4191;
+  font-family: "Special Elite", cursive;
 }

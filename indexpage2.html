@@ -11,7 +11,7 @@
 <body>
          
     <!--image float-->
-    <img id="picture1" src="https://images.unsplash.com/flagged/photo-1587096472434-8b65b343980d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80">
+    <img alt="Neon sign of Lightning." id="picture1" src="https://images.unsplash.com/flagged/photo-1587096472434-8b65b343980d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80">
 
     <!--address-->
     <div id="address">
@@ -27,14 +27,14 @@
     <hr>
 
     <!--mission statement-->
-    <h3 class="header1">Cool Guy Mission Statement</h3>
+    <h3 class="header">Cool Guy Mission Statement</h3>
         <p>As a cool guy it is my job to not only be cool but to make it look effortless. To apear as if everything i do comes naturally and did not take years of training. I spent the School for Coolness has given me just that. 4 years of training to eat, breath and sleep coolness. 
            After my 4 year stint of school i worked under <em>Sir Vincent McCooler the 3rd</em> as his assistant for 4 more years. McCooler released me on the fourth year, convinced that i was ready to go out on my own. Ill admit it was challenging to go out on my own but I was indeed ready.
            I have been a private contracter as a professional cool guy for several years now and I have learned the secret to being truely cool. 
         </p>
 
     <!--Education Table-->
-    <h3 class="header1">Education</h3>
+    <h3 class="header">Education</h3>
     <table>
         <tbody>
             <tr>
@@ -50,7 +50,7 @@
     </table>
 
     <!--Work Experience Table-->
-    <h3 class="header1">Work Experience</h3>
+    <h3 class="section-header">Work Experience</h3>
     <table>
         <tbody>
             <tr>
@@ -66,7 +66,7 @@
     </table>
 
     <!--Skills and Abilities List-->
-    <h3 class="header1">Skills & Abilities</h3>
+    <h3 class="section-header">Skills & Abilities</h3>
     <ul>
         <li>will not look at explosions</li>
         <li>James Bond stunt man</li>
@@ -80,24 +80,23 @@
     <form>
 
         <div>
-            <label>I am the age of 19 or over</label>
-            <input id="agreed" name="agreed" type="checkbox">
+            <label class="label-expand"><input id="agreed" name="agreed" type="checkbox">I am the age of 19 or over</label>
         </div>
 
         <div>
-            <label for="male">Male</label>
-            <input id="male" name="gender" type="radio" value="male">
-            <label for="female">Female</label>
-            <input id="female" name="gender" type="radio" value="female">
-            <label for="other">Other</label>
-            <input id="other" name="gender" type="radio" value="other">
+            
+            <label for="male"><input id="male" name="gender" type="radio" value="male">Male</label>
+            <label for="female"><input id="female" name="gender" type="radio" value="female">Female</label>
+            <label for="other"><input id="other" name="gender" type="radio" value="other">Other</label>
         </div>
     
+        <div>
         <label>First Name:</label>
         <input name="first" id="first" type="text" placeholder="ex. Bort" required>
         <label>Last Name:</label>
         <input name="last" id="last" type="text" placeholder="ex. Gunderson" required>
-         
+        </div> 
+
         <div>
             <label>E-mail:</label>
             <input name="e-mail" type="email" placeholder="ex. e-mail@email.com" required>
@@ -106,7 +105,7 @@
         </div>
 
         <div>
-            <label>How did you hear of my services?
+            <label class="label-expand">How did you hear of my services?
                 <select>
                     <option>Friend/Family</option>
                     <option>Observation</option>
